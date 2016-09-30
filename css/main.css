@@ -29,11 +29,13 @@ body {
 	color: #4C4D49;
 	font-size: 44px;
 	margin: 10px 10px 0;
+	text-shadow: 0px 2px 4px rgba(0,0,0,0.50);
 }
 
 .enter {
 	color: #CDA53A;
 	font-size: 28px;
+	font-weight: 700;
 	margin-bottom: 10px;
 }
 
@@ -49,22 +51,32 @@ main div {
 	margin: 150px 20px 0;
 }
 
-@media screen and (min-width: 512px) {
+@media screen and (min-width: 600px) {
 	.title {
-
+		font-size: 64px;
+		margin-left: 20px;
+		margin-right: 20px;
 	}
 
 	.enter {
-		
+		font-size: 42px;
 	}
 }
 
 @media screen and (min-width:768px ) {
 	.title {
-		font-size: 96px;
+		font-size: 80px;
 	}
 
 	.enter {
 		font-size: 48px;
+	}
+}
+
+@media screen and (min-width:1024px) {
+	.title {
+		font-size: 96px;
+		margin-left: 30px;
+		margin-right: 30px;
 	}
 }
