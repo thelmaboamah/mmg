@@ -1,9 +1,17 @@
 * {
 	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+
 }
 
 .container {
 	display: flex;
+	justify-content: center;
+	align-items: flex-start;
 }
 
 .tile {
@@ -16,10 +24,47 @@
  	 background-size: cover;
 }
 
-.gray {
+.title {
+	font-family: 'Rouge Script', cursive;
 	color: #4C4D49;
+	font-size: 44px;
+	margin: 10px 10px 0;
 }
 
-.gold {
+.enter {
 	color: #CDA53A;
+	font-size: 28px;
+	margin-bottom: 10px;
+}
+
+
+
+main div {
+	text-align: center;
+}
+
+.bg-white-trans {
+	background: rgba(255, 255, 255, .9);
+	border-radius: 8px;
+	margin: 150px 20px 0;
+}
+
+@media screen and (min-width: 512px) {
+	.title {
+
+	}
+
+	.enter {
+		
+	}
+}
+
+@media screen and (min-width:768px ) {
+	.title {
+		font-size: 96px;
+	}
+
+	.enter {
+		font-size: 48px;
+	}
 }
