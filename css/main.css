@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	display: flex;
+}
+
+.tile {
+	width: 100vw;
+	height: 100vh;
+	background: url(../img/tile.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	 -o-background-size: cover;
+ 	 background-size: cover;
+}
+
+.gray {
+	color: #4C4D49;
+}
+
+.gold {
+	color: #CDA53A;
+}
