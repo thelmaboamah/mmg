@@ -1,0 +1,194 @@
+/*body {
+	display:none;
+}
+
+*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Droid Serif', serif;
+	color: #4C4D49;
+	background: #232680;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+header {
+	min-height: 160px;
+	background: #fff;
+}
+header h1 {
+	display: inline;
+	font-family: "Rouge Script", cursive;
+	color: #CDA53A;
+	font-weight: 400;
+	font-size: 32px;
+}
+header img {
+	display: none;
+}
+
+/*** GRID ***/
+.container {
+    width: 80%;
+    max-width: 940px;
+    margin: 0 auto;
+    display: flex;
+/*    align-items: flex-start;
+*/}
+
+.center {
+	justify-content: center;
+	align-items: center;
+}
+
+/**** Sets full width in mobile **/
+.grid-m {
+    width: 100%;
+}
+
+/** IMAGES **/
+
+.img-responsive {
+    width: 100%;
+}
+
+/** LISTS **/
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.inline li {
+    display: inline;
+    padding: 0 .3em;
+}
+
+@media screen and (min-width: 600px) {
+	header h1 {
+		font-size: 48px
+	}
+}
+
+@media screen and (min-width: 768px) {
+	header h1 {
+	 	font-size: 48px;
+		padding: 0 24px;
+	 }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /***** Grid for tablet sized devices ***/
+    .grid-t-12 {
+    width: 100%;
+    }
+
+    .grid-t-11 {
+        width: 91.66% ;
+    }
+
+    .grid-t-10 {
+        width: 83.33%;
+    }
+
+    .grid-t-9 {
+        width: 75%;
+    }
+
+    .grid-t-8 {
+        width: 66.66%;
+    }
+
+    .grid-t-7 {
+        width: 58.33%;
+    }
+
+    .grid-t-6 {
+        width: 48.5%;
+    }
+
+    .grid-t-5 {
+        width: 41.66%;
+    }
+
+    .grid-t-4 {
+        width: 33.33%;
+    }
+
+    .grid-t-3 {
+        width: 25%;
+    }
+
+    .grid-t-2 {
+        width: 16.66%;
+    }
+
+    .grid-t-1 {
+        width: 8.33%;
+    }
+
+}
+
+
+@media(min-width: 1024px) {
+    
+    /** Desktop grid **/
+    .grid-d-12 {
+    width: 100%;
+    }
+
+    .grid-d-11 {
+        width: 91.66% ;
+    }
+
+    .grid-d-10 {
+        width: 83.33%;
+    }
+
+    .grid-d-9 {
+        width: 75%;
+    }
+
+    .grid-d-8 {
+        width: 66.66%;
+    }
+
+    .grid-d-7 {
+        width: 55.33%;
+    }
+
+    .grid-d-6 {
+        width: 48.5%;
+    }
+
+    .grid-d-5 {
+        width: 41.66%;
+    }
+
+    .grid-d-4 {
+        width: 31.33%;
+    }
+
+    .grid-d-3 {
+        width: 25%;
+    }
+
+    .grid-d-2 {
+        width: 16.66%;
+    }
+
+    .grid-d-1 {
+        width: 8.33%;
+    }
+    
+}
+
+
