@@ -20,7 +20,7 @@ a {
 }
 
 header {
-	min-height: 160px;
+	min-height: 100px;
 	background: #fff;
 }
 header h1 {
@@ -36,12 +36,16 @@ header img {
 
 /*** GRID ***/
 .container {
-    width: 80%;
-    max-width: 940px;
+/*    width: 80%;
+    max-width: 940px;*/
     margin: 0 auto;
     display: flex;
 /*    align-items: flex-start;
 */}
+
+.content-wrapper {
+	max-width: 940px;
+}
 
 .center {
 	justify-content: center;
