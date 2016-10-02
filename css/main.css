@@ -27,15 +27,23 @@ body {
 .tile {
 	width: 100vw;
 	height: 100vh;
-	background: url(../img/tile.jpg) no-repeat center center fixed;
+	background: url(../img/tile2.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
  	 -o-background-size: cover;
  	 background-size: cover;
 }
 
+/*img.tile {
+	z-index: -10;
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+}*/
+
 .title {
 	font-family: 'Rouge Script', cursive;
+	font-weight: bold;
 	color: #4C4D49;
 	font-size: 34px;
 	margin: 10px 10px 0;
@@ -59,7 +67,7 @@ main div {
 }
 
 .bg-white-trans {
-	background: rgba(255, 255, 255, .9);
+	background: rgba(255, 255, 255, .75);
 	border-radius: 8px;
 	margin: 150px 20px 0;
 }
